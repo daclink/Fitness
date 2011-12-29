@@ -1,0 +1,365 @@
+<?xml version="1.0" encoding="ISO-88591-1"?>
+<?xml-stylesheet type="text/xsl" href="schedule.xsl"?>
+<schedule>
+	<startDate>Nov-27-2011 10:00:00</startDate>
+	<week id="1">
+		<day>
+			<number>1</number>
+			<activity>3 mile run</activity>
+		</day>
+		<day>
+			<number>2</number>
+			<activity>Strength</activity>
+		</day>
+		<day>
+			<number>3</number>
+			<activity>3 mile</activity>
+		</day>
+		<day>
+			<number>4</number>
+			<activity>rest</activity>
+		</day>
+		<day>
+			<number>5</number>
+			<activity>30min cross</activity>
+		</day>
+		<day>
+			<number>6</number>
+			<activity>4 miles </activity>
+		</day>
+		<day>
+			<number>7</number>
+			<activity>Stretch strength</activity>
+		</day>
+	</week>
+	<week id="2">
+		<day>
+			<number>1</number>
+			<activity>3 mile run</activity>
+		</day>
+		<day>
+			<number>2</number>
+			<activity>Strength</activity>
+		</day>
+		<day>
+			<number>3</number>
+			<activity>3 mile</activity>
+		</day>
+		<day>
+			<number>4</number>
+			<activity>rest</activity>
+		</day>
+		<day>
+			<number>5</number>
+			<activity>30min cross</activity>
+		</day>
+		<day>
+			<number>6</number>
+			<activity>4 miles</activity>
+		</day>
+		<day>
+			<number>7</number>
+			<activity>Stretch strength</activity>
+		</day>
+	</week>
+	<week id="3">
+		<day>
+			<number>1</number>
+			<activity>3.5 mile run</activity>
+		</day>
+		<day>
+			<number>2</number>
+			<activity>Strength</activity>
+		</day>
+		<day>
+			<number>3</number>
+			<activity>3.5 mile</activity>
+		</day>
+		<day>
+			<number>4</number>
+			<activity>rest</activity>
+		</day>
+		<day>
+			<number>5</number>
+			<activity>40min cross</activity>
+		</day>
+		<day>
+			<number>6</number>
+			<activity>5 miles</activity>
+		</day>
+		<day>
+			<number>7</number>
+			<activity>Stretch strength</activity>
+		</day>
+	</week>
+	<week id="4">
+		<day>
+			<number>1</number>
+			<activity>3.5 mile run</activity>
+		</day>
+		<day>
+			<number>2</number>
+			<activity>Strength</activity>
+		</day>
+		<day>
+			<number>3</number>
+			<activity>3.5 mile</activity>
+		</day>
+		<day>
+			<number>4</number>
+			<activity>40min cross</activity>
+		</day>
+		<day>
+			<number>5</number>
+			<activity>rest</activity>
+		</day>
+		<day>
+			<number>6</number>
+			<activity>5 Miles!</activity>
+		</day>
+		<day>
+			<number>7</number>
+			<activity>Stretch strength</activity>
+		</day>
+	</week>
+	<week id="5">
+		<day>
+			<number>1</number>
+			<activity>4 mile run</activity>
+		</day>
+		<day>
+			<number>2</number>
+			<activity>Strength</activity>
+		</day>
+		<day>
+			<number>3</number>
+			<activity>4 mile</activity>
+		</day>
+		<day>
+			<number>4</number>
+			<activity>rest</activity>
+		</day>
+		<day>
+			<number>5</number>
+			<activity>40min cross</activity>
+		</day>
+		<day>
+			<number>6 </number>
+			<activity>6 mile run!</activity>
+		</day>
+		<day>
+			<number>7</number>
+			<activity>Stretch strength</activity>
+		</day>
+	</week>
+	<week id="6">
+		<day>
+			<number>1</number>
+			<activity>4 mile run</activity>
+		</day>
+		<day>
+			<number>2</number>
+			<activity>Strength</activity>
+		</day>
+		<day>
+			<number>3</number>
+			<activity>4 mile</activity>
+		</day>
+		<day>
+			<number>4</number>
+			<activity>rest or easy run</activity>
+		</day>
+		<day>
+			<number>5</number>
+			<activity> rest </activity>
+		</day>
+		<day>
+			<number>6</number>
+			<activity>5-K Race!</activity>
+		</day>
+		<day>
+			<number>7</number>
+			<activity>Stretch strength</activity>
+		</day>
+	</week>
+	<week id="7">
+		<day>
+			<number>1</number>
+			<activity>4.5 mile run</activity>
+		</day>
+		<day>
+			<number>2</number>
+			<activity>Strength</activity>
+		</day>
+		<day>
+			<number>3</number>
+			<activity>4.5 mile</activity>
+		</day>
+		<day>
+			<number>4</number>
+			<activity>rest</activity>
+		</day>
+		<day>
+			<number>5</number>
+			<activity>50 min cross</activity>
+		</day>
+		<day>
+			<number>6 </number>
+			<activity>7 mile run!</activity>
+		</day>
+		<day>
+			<number>7</number>
+			<activity>Stretch strength</activity>
+		</day>
+	</week>
+	<week id="8">
+		<day>
+			<number>1</number>
+			<activity>4.5 mile run</activity>
+		</day>
+		<day>
+			<number>2</number>
+			<activity>Strength</activity>
+		</day>
+		<day>
+			<number>3</number>
+			<activity>4.5 mile</activity>
+		</day>
+		<day>
+			<number>4</number>
+			<activity>rest</activity>
+		</day>
+		<day>
+			<number>5</number>
+			<activity>50 min cross</activity>
+		</day>
+		<day>
+			<number>6 </number>
+			<activity>8 mile run!</activity>
+		</day>
+		<day>
+			<number>7</number>
+			<activity>Stretch strength</activity>
+		</day>
+	</week>
+	<week id="9">
+		<day>
+			<number>1</number>
+			<activity>5 mile run</activity>
+		</day>
+		<day>
+			<number>2</number>
+			<activity>Strength</activity>
+		</day>
+		<day>
+			<number>3</number>
+			<activity>5 mile</activity>
+		</day>
+		<day>
+			<number>4</number>
+			<activity>rest or easy run</activity>
+		</day>
+		<day>
+			<number>5</number>
+			<activity>rest</activity>
+		</day>
+		<day>
+			<number>6</number>
+			<activity>10-K Race!</activity>
+		</day>
+		<day>
+			<number>7</number>
+			<activity>Stretch strength</activity>
+		</day>
+	</week>
+	<week id="10">
+		<day>
+			<number>1</number>
+			<activity>5 miles</activity>
+		</day>
+		<day>
+			<number>2</number>
+			<activity>Strength</activity>
+		</day>
+		<day>
+			<number>3</number>
+			<activity> 5 miles</activity>
+		</day>
+		<day>
+			<number>4</number>
+			<activity>Rest</activity>
+		</day>
+		<day>
+			<number>5</number>
+			<activity>60 min cross</activity>
+		</day>
+		<day>
+			<number>6</number>
+			<activity>9 mile</activity>
+		</day>
+		<day>
+			<number>7</number>
+			<activity>Strength and Stretch</activity>
+		</day>
+	</week>
+	<week id="11">
+		<day>
+			<number>1</number>
+			<activity>5 miles</activity>
+		</day>
+		<day>
+			<number>2</number>
+			<activity>Strength</activity>
+		</day>
+		<day>
+			<number>3</number>
+			<activity>5 miles</activity>
+		</day>
+		<day>
+			<number>4</number>
+			<activity>Rest</activity>
+		</day>
+		<day>
+			<number>5</number>
+			<activity>60 min cross</activity>
+		</day>
+		<day>
+			<number>6</number>
+			<activity>10 mile</activity>
+		</day>
+		<day>
+			<number>7</number>
+			<activity>Strength and Stretch</activity>
+		</day>
+	</week>
+	<week id="12">
+		<day>
+			<number>1</number>
+			<activity>4 miles</activity>
+		</day>
+		<day>
+			<number>2</number>
+			<activity>Strength</activity>
+		</day>
+		<day>
+			<number>3</number>
+			<activity>2 miles </activity>
+		</day>
+		<day>
+			<number>4</number>
+			<activity>rest</activity>
+		</day>
+		<day>
+			<number>5</number>
+			<activity>rest</activity>
+		</day>
+		<day>
+			<number>6</number>
+			<activity>HALF MARATHON </activity>
+		</day>
+		<day>
+			<number>7</number>
+			<activity>REST</activity>
+		</day>
+	</week>
+</schedule>

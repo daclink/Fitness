@@ -1,0 +1,109 @@
+<html>
+	<head>
+		<title>RUN!!!!</title>
+		<link rel="shortcut icon" href="http://www.dot-awesome.com/favicon.ico" type="image/x-icon" />
+
+		<script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js"></script>
+		<script type="text/javascript">
+				var start = new Date();
+				var today = new Date();
+							
+				var one_day = 1000 * 60 * 60 *24;				
+				start.setFullYear(2011,10,27);
+		
+				day = Math.floor(((today.getTime()-start.getTime())/one_day)%7);
+				week = (Math.floor(((today.getTime()-start.getTime())/one_day)/7))+1;
+		
+				if (day === 0) {
+					day = 7;
+					week--;
+				}
+		
+		function loadXMLDoc(dname){
+			if (window.XMLHttpRequest){
+			  xhttp=new XMLHttpRequest();
+		  	}else{
+		  		xhttp=new ActiveXObject("Microsoft.XMLHTTP");
+		  	}
+			xhttp.open("GET",dname,false);
+			xhttp.send("");
+			return xhttp.responseXML;
+		}
+		
+		function displayResult(){
+			xml=loadXMLDoc("schedule.xml");
+			xsl=loadXMLDoc("schedule.xsl");
+		// code for IE
+		if (window.ActiveXObject){
+			  ex=xml.transformNode(xsl);
+			  document.getElementById("example").innerHTML=ex;
+		  }
+		// code for Mozilla, Firefox, Opera, etc.
+		else if (document.implementation && document.implementation.createDocument){
+		  xsltProcessor=new XSLTProcessor();
+		  xsltProcessor.importStylesheet(xsl);
+		  resultDocument = xsltProcessor.transformToFragment(xml,document);
+		  document.getElementById("example").appendChild(resultDocument);
+		  }
+		for (i=1;i<13;i++) {
+	  		if( i%2==0) {
+				$("#week"+i).addClass("even");
+			} else {
+				$("#week"+i).addClass("odd");
+			}
+		}
+	
+		  $("#"+week+day).addClass("highlite");	  
+		  $("#week"+week).removeClass('even odd').addClass("current");
+		}
+		</script>
+		<style>
+			table, td, th 
+				{
+					border:none;
+				}
+			th, td
+				{
+					padding:5px;
+				}
+			tr
+				{
+					height:50px;
+					text-align:center;
+					vertical-align:center;
+				}
+			th 	
+				{ 
+					background-color:#009b00;
+				}
+			.even
+				{
+					background-color:#00dddd;			
+				}
+			.odd
+				{
+					background-color:#00ee00;
+				}
+			.highlite	
+				{
+					background-color:#ed0086;
+					color: #A6F900;
+					text-transform: uppercase;
+					text-decoration: underline;
+					font-size: 20px;
+				}
+			.current
+				{
+					background-color:#a6f900;
+				}
+				
+		</style>
+	</head>
+	<body onload="displayResult()">
+		<!--div> week = <script type="text/javascript">document.write(week)</script> </div>
+		<div> day = <script type="text/javascript">document.write(day)</script> </div>
+		<div id="cat"> ID = <script type="text/javascript">document.write("#"+week+day)</script> </div--!>
+	
+		<div id="example" />
+	</body>
+</html>
